@@ -9,4 +9,11 @@ fun main(args: Array<String>) {
 
     println(rollDice(6))
     println(rollDice2(12))
+
+    gameplay(rollDice(13))
+    gameplay(rollDice2(14))
+}
+
+fun gameplay(diceRoll: Int) {
+    println(diceRoll)
 }
